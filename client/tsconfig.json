@@ -10,7 +10,6 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-      
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -26,6 +25,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "../Sandbox TS/sandbox.ts", "../Sandbox TS/sandbox.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
