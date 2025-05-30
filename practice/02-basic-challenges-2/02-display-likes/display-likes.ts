@@ -12,6 +12,3 @@ export function displayLikes(names: string[]): string {
   }
   return '';
 }
-
-// Take array of names, possibly empty, return a string that lists the people who have liked it.
-// 4 cases: No one, one name, two names, three names, and 2 names and X others like this.
