@@ -1,3 +1,13 @@
 export function sumOfEvenSquares(numbers: number[]): number {
-  return NaN;
+  const evenNums = numbers.filter((num) => {
+    return num % 2 === 0;
+  });
+
+  const squaredNums = evenNums.map((num) => {
+    return num * num;
+  });
+
+  return squaredNums.reduce((total, num) => {
+    return total + num;
+  }, 0);
 }
